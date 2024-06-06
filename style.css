@@ -817,5 +817,98 @@ p {
 		flex-basis: 22%;
 		margin: 1.5%;
 	}
+
+	/* Experience Dashboard Section */
+#experience-dashboard .experience-dashboard {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 100px 20px; /* Added 20px padding for better spacing */
+	text-align: center;
+  }
+  
+  #experience-dashboard .experience-dashboard-header .section-title {
+	margin-bottom: 70px; /* Increased margin-bottom for more space */
+	font-size: 4rem;
+	color: white; /* Adjust the color as needed */
+  }
+  
+  #experience-dashboard .experience-totals {
+	display: flex;
+	justify-content: center;
+	gap: 50px; /* Added gap for spacing between total boxes */
+	margin-bottom: 50px;
+  }
+  
+  #experience-dashboard .experience-total {
+	padding: 20px 30px;
+	background: #222; /* Dark background for contrast */
+	border-radius: 10px;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Shadow for depth */
+	transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+  }
+  
+  #experience-dashboard .experience-total:hover {
+	transform: translateY(-5px); /* Slight lift on hover */
+	box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5); /* More pronounced shadow on hover */
+  }
+  
+  #experience-dashboard .experience-total h2 {
+	font-size: 2rem;
+	color: crimson; /* Change color for better emphasis */
+  }
+  
+  #experience-dashboard .experience-total p {
+	font-size: 1.5rem;
+	color: #ddd; /* Lighter color for text */
+  }
+  
+  #experience-dashboard .experience-dashboard-content {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-wrap: wrap;
+  }
+  
+  #experience-dashboard .experience-item {
+	width: calc(40px); /* Adjust the width as needed */
+	margin: 20px;
+	padding: 30px;
+	border-radius: 20px;
+	background-color: #141414; /* Adjust the background color as needed */
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Add box shadow for a cool effect */
+	transition: all 0.3s ease; /* Add transition effect */
+  }
+  
+  #experience-dashboard .experience-item:hover {
+	transform: translateY(-10px); /* Add a slight lift on hover */
+	box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3); /* Adjust the box shadow on hover */
+  }
+  
+  #experience-dashboard .experience-info h1,
+  #experience-dashboard .experience-info h2,
+  #experience-dashboard .experience-info h3,
+  #experience-dashboard .experience-info p {
+	color: white; /* Adjust the text color as needed */
+  }
+  
+  #experience-dashboard .experience-info p:last-child {
+	margin-top: 20px; /* Add some space between paragraphs */
+  }
+  /* End Experience Dashboard Section */
+  
+
+  
+
+/* Academic Section */
+#academic .container {
+    padding: 100px 0;
+}
+
+#academic .section-title {
+    margin-bottom: 50px;
+}
+/* End Academic Section */
+
+
 }
 /* End  Media Query For Desktop */
