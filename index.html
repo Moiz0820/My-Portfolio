@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>My Website</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+            <h1><span>Mo</span>iz <span>An</span>war</h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Home</a></li>
+            <li><a href="#about" data-after="About">About</a></li>
+            <li><a href="#provision" data-after="provision">Provision</a></li>
+            <li><a href="#projects" data-after="Projects">Projects</a></li>
+            <li><a href="#experience" data-after="Experience">Experience</a></li>
+            <li><a href="#certifications" data-after="certifications">Certifications</a></li>
+            <li><a href="#contact" data-after="Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>Hello, <span></span></h1>
+        <h1>This is <span></span></h1>
+        <h1>Moiz Anwar <span></span></h1>
+        <a href="#experience" type="button" class="cta">Have a Look at my Experience</a>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="data:image/jpeg;base64,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" alt="img">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">About <span>me</span></h1>
+        <h2>Data Analyst</h2>
+        <p>I am a highly motivated Computer Science Graduate. My skill set includes Data Analysis, strong programming abilities, effective problem-solving, and a knack for software development. I possess excellent analytical and communication skills, coupled with adaptability and a quick learning aptitude. My passion lies in technology, and I'm constantly eager to explore new horizons. I have valuable experience gained through internships at Deloitte and NUS, where I actively contributed to solving real-world challenges and learned from industry experts. In addition to my academic achievements, I take pride in my roles as an event manager, project manager, and versatile programmer, making me a dynamic and valuable team member.</p>
+        <a href="https://docs.google.com/document/d/1z2CGmi_R2qttlIPpVAUxYxL9khYpOXIr-WDDez5DGx8/edit?usp=sharing" target="https://docs.google.com/document/d/1z2CGmi_R2qttlIPpVAUxYxL9khYpOXIr-WDDez5DGx8/edit?usp=sharing" class="cta">Download CV </a>
+
+      </div>
+    </div>
+  </section>
+  <!-- End About Section -->
+
+    <!-- Academics Section -->
+<section id="academics">
+  <div class="academics container">
+    <div class="academics-header">
+      <h1 class="section-title">Academics</h1>
+    </div>
+    <div class="academics-content">
+      <div class="academic-item">
+        <h2>10th Grade</h2>
+        <p>School Name: Grace Ling Liang High School</p>
+        <p>Percentage: 86%</p>
+      </div>
+      <div class="academic-item">
+        <h2>12th Grade</h2>
+        <p>School Name: Grace Ling Liang Senior Secondary School</p>
+        <p>Percentage: 89%</p>
+      </div>
+      <div class="academic-item">
+        <h2>Undergraduate</h2>
+        <p>College Name: Bennett University</p>
+        <p>CGPA: 9</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Academics Section -->
+
+
+
+
+
+  <!-- provision Section -->
+  <section id="provision">
+    <div class="provision container">
+      <div class="provision-top">
+        <h1 class="section-title">Prov<span>i</span>sion</h1>
+        <p>I am a motivated CSE student with strong programming, problem-solving, and software development
+          skills. I possess Excellent analytical, communication, and adaptability abilities, with a passion for
+          technology and a quick learning aptitude.</p>
+      </div>
+      <div class="provision-bottom">
+        <div class="provision-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+          <h2>Data Analysis and Data Science</h2>
+          <p>I can provide expertise in analyzing and deriving insights from data, employing techniques such as machine learning and deep learning to solve real-world problems.</p>
+        </div>
+        <div class="provision-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+          <h2>Software Development</h2>
+          <p>I excels in creating and maintaining software applications, particularly in cloud computing environments like Amazon AWS, with a focus on SageMaker.</p>
+        </div>
+        <div class="provision-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+          <h2>Project Management and Leadership</h2>
+          <p>I can effectively lead and manage projects, ensuring successful implementation and collaboration within teams, drawing from my experience in leadership roles.</p>
+        </div>
+        <div class="provision-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+          <h2>Communication and Presentation</h2>
+          <p>I possess strong communication skills, which allows me to convey complex technical information clearly and present findings and insights effectively to diverse audiences.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End provision Section -->
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="projects container">
+      <div class="projects-header">
+        <h1 class="section-title">Recent <span>Projects</span></h1>
+      </div>
+      <div class="all-projects">
+        <div class="project-item">
+          <div class="project-info">
+            <h1>IntervAI</h1>
+            
+            <p>Created an AI-driven platform that enables users to input their resume and receive
+              tailored interview questions based on their desired job profile. Following the
+              interview, the AI generates a comprehensive score and predicts the probability of
+              selection.
+              </p>
+          </div>
+          <div class="project-img">
+            <img src="https://blog.talview.com/hubfs/chat-boot-blog.jpg" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>RiNAZ</h1>
+            
+            <p>Raspberry Pi Nas online network storage platform for users to upload and store their
+              files.
+              The uploaded files are sorted automatically based on their file type</p>
+          </div>
+          <div class="project-img">
+            <img src="https://m.media-amazon.com/images/I/41cDz-BqefL._AC_UF1000,1000_QL80_.jpg" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Mask Detection using AI</h1>
+            
+            <p>Facial detection software checks whether a person is wearing a mask or not, using
+              OpenCV, Matploit, and Python.
+              </p>
+          </div>
+          <div class="project-img">
+            <img src="https://repository-images.githubusercontent.com/257567981/d8ce0480-9ac0-11ea-8062-809a1b8bfab6" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Research Paper on Counterfeit Images and their Study</h1>
+            <h2>Working</h2>
+            <p>Counterfeit images are a growing concern in the digital age, as advancements in
+              technology have made it easier to create convincing fake images.
+              In this research paper, the focus will be on exploring various techniques for detecting
+              and authenticating counterfeit images, including machine learning algorithms and
+              forensic analysis tools.
+              </p>
+          </div>
+          <div class="project-img">
+            <img src="https://production-media.paperswithcode.com/tasks/Screenshot_2021-06-18_at_10.10.26_JYzPs7X.png" alt="img">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Projects Section -->
+
+  <!-- Experience Dashboard Section -->
+<section id="experience-dashboard">
+  <div class="experience-dashboard container">
+    <div class="experience-dashboard-header">
+      <h1 class="section-title">Experience Dashboard</h1>
+      <div class="experience-totals">
+        <div class="experience-total">
+          <h2>Total Internship Experience</h2>
+          <p>20 Months</p>
+        </div>
+        <div class="experience-total">
+          <h2>Total Work Experience</h2>
+          <p>March 2024 - Presnt</p>
+        </div>
+        <div class="experience-total">
+          <h2>Total Volunteering Experience</h2>
+          <p>19 Months</p>
+        </div>
+      </div>
+    </div>
+    <div class="experience-dashboard-content">
+
+      <!-- Add more experience items as needed -->
+    </div>
+  </div>
+</section>
+<!-- End Experience Dashboard Section -->
+
+
+
+
+
+
+<!-- Experience Section -->
+<section id="experience">
+    <div class="experience container">
+      <div class="experience-header">
+        <h1 class="section-title">Professional <span>Experience</span></h1>
+      </div>
+      <div class="all-experiences">
+        <!-- Experience Item 1 -->
+        <div class="experience-item">
+          <div class="experience-info">
+            <h1>Data Analyst</h1>
+            <h2>Faateh Real Estate</h2>
+            <h3>Dubai, UAE</h3>
+            <p>March 2024, Present</p>
+            <p> ● Analyze market trends and property data to guide strategic decisions.
+            <p>● Develop predictive models and create visualizations to identify investment opportunities.
+              .</p>
+                
+          </div>
+        </div>
+        <!-- End Experience Item 2 -->
+        <!-- Experience Item 2 -->
+        <div class="experience-item">
+          <div class="experience-info">
+            <h1>Data Analyst Intern Intern</h1>
+            <h2>Faateh Real Estate</h2>
+            <h3>Dubai, UAE</h3>
+            <p>December 2023 - February 2024</p>
+            <p> ● Worked closely with one of the directors and gained exposure in technical as well as non-technical fields.
+            <p>● Assist in conducting analysis over real time data of the firm.
+              .</p>
+                
+          </div>
+        </div>
+        <!-- End Experience Item 2 -->
+        <!-- Experience Item 3 -->
+        <div class="experience-item">
+          <div class="experience-info">
+            <h1>Research Analyst</h1>
+            <h2>UC Berkeley, University of California</h2>
+            <h3>Remote-Office</h3>
+            <p>Jan - March 2024</p>
+            <p> ● Collaborated effectively with the research team, showcasing strong skills in data management, analysis, and software support and demonstrated exceptional attention to detail and a proactive approach, contributing significantly to innovative solutions in a remote work environment.</p>
+                
+          </div>
+        </div>
+        <!-- End Experience Item 3 -->
+
+        <!-- Experience Item 4 -->
+        <div class="experience-item">
+          <div class="experience-info">
+            <h1>SA&MA Analyst Intern</h1>
+            <h2><strong>Deloitte</h2></strong>
+            <h3>Kolkata</h3>
+            <p>July-October, 2023</p>
+            <p>Collaborated with Deloitte's Analytics, SA&MA teams, and Consulting Director to
+                develop a practical solution for a real-world challenge during my internship.</p>
+          </div>
+        </div>
+        <!-- End Experience Item 4 -->
+  
+        <!-- Experience Item 5 -->
+        <div class="experience-item">
+          <div class="experience-info">
+            <h1>Academic Intern</h1>
+            <h2>National University of Singapore</h2>
+            <h3>Singapore</h3>
+            <p>June-July, 2023</p>
+            <p> ● Received world-class training in data analytics, equipping me with top-notch skills in
+                the field.
+            <p>● Engaged in an impactful internship project, tackling a real-world problem and
+                gaining valuable insights from industry experts.</p>
+                
+          </div>
+        </div>
+        <!-- End Experience Item 5 -->
+
+        <!-- Experience Item 6 -->
+        <div class="experience-item">
+            <div class="experience-info">
+              <h1>Amazon AWS</h1>
+              <h2>Amazon</h2>
+              <h3>National University of Singapore</h3>
+              <p>June-July, 2023</p>
+              <p>Successfully achieved Amazon AWS certification from Amazon's faculty, gaining
+hands-on experience on the AWS platform, specifically with a focus on SageMaker</p>
+            </div>
+          </div>
+          <!-- End Experience Item 6 -->
+
+          <!-- Experience Item 7 -->
+        <div class="experience-item">
+            <div class="experience-info">
+              <h1>Research and Development Internship</h1>
+              <h2>ALSAY Gastech Pvt Ltd</h2>
+              <h3>Noida</h3>
+              <p>January-March, 2023</p>
+              <p> ● Assist in conducting research and experiments to support product development.</p>
+<p>● Collecting and analyzing data to identify trends, patterns, and insights.</p>
+<p>● Conducting literature reviews and market research to gather relevant information</p>
+            </div>
+          </div>
+          <!-- End Experience Item 7 -->
+
+          <!-- Experience Item 8 -->
+        <div class="experience-item">
+            <div class="experience-info">
+              <h1>Data Analyst Internship</h1>
+              <h2>ZAK Venture Pvt Ltd</h2>
+              <h3>Noida</h3>
+              <p>July, 2022 - January, 2023</p>
+              <p> ● Assist in collecting, cleaning, and organizing large datasets for analysis.</p>
+<p>● Conducting exploratory data analysis to identify trends, patterns, and outliers.</p>
+<p>● Performing data wrangling tasks, including data cleaning, transformation, and
+integration.</p>
+            </div>
+          </div>
+          <!-- End Experience Item 8 -->
+
+          <!-- Experience Item 9 -->
+        <div class="experience-item">
+            <div class="experience-info">
+              <h1>Virtual Volunteering</h1>
+              <h2>InAmigos Foundation</h2>
+              <h3>Virtual</h3>
+              <p>April, 2022 - April, 2023</p>
+              <p>Through my virtual volunteering internship at the InAmigos Foundation, I learned the value of adaptability and remote collaboration. I honed my communication and time management skills while supporting impactful projects from a distance. It taught me the significance of leveraging technology to make a difference and reinforced my passion for social service.</p>
+            </div>
+          </div>
+          <!-- End Experience Item 9 -->
+
+          <!-- Experience Item 10 -->
+        <div class="experience-item">
+            <div class="experience-info">
+              <h1>Social Entrepreneurship</h1>
+              <h2>Hamari Pahchan NGO</h2>
+              <h3>Virtual</h3>
+              <p>April, 2022 - September, 2022</p>
+              <p>During my social entrepreneurship internship at an NGO, I learned the power of combining business principles with social impact. I gained firsthand experience in project management, community engagement, and sustainable development. It taught me the importance of empathy, innovation, and collaboration to create meaningful change and address pressing social issues.</p>
+            </div>
+          </div>
+          <!-- End Experience Item 10 -->
+
+          <!-- Experience Item 11 -->
+        <div class="experience-item">
+            <div class="experience-info">
+              <h1>Research Analyst</h1>
+              <h2>Berkeley Haas, University of California</h2>
+              <h3>Kolkata</h3>
+              <p>June, 2022</p>
+              <p> ● Provided tutorials on current data management techniques including assisting with analysis and providing technical recommendations on study software.</p>
+<p>● Support the development of research methodologies and data collection tools.</p>
+<p>● Prepare reports, presentations, and summaries of research findings.</p>
+            </div>
+          </div>
+          <!-- End Experience Item 11 -->
+  
+        <!-- Add more experience items as needed -->
+      </div>
+    </div>
+  </section>
+  <!-- End Experience Section -->
+  
+  
+<!-- Certifications Section -->
+<section id="certifications">
+  <div class="certifications container">
+    <div class="certifications-header">
+      <h1 class="section-title">Certifications</h1>
+    </div>
+    <div class="all-certifications">
+      <!-- Certification Card 1 -->
+      <div class="certification-card">
+        <h2>Microsoft PL-300 Data Analyst Associate</h2>
+        <p>Link: <a class="certification-link" href="https://learn.microsoft.com/en-us/users/moizanwar-6595/credentials/certification/data-analyst-associate" target="_blank">Microsoft Certification</a></p>
+      </div>
+
+      <!-- Certification Card 2 -->
+      <div class="certification-card">
+        <h2>Harvard University: Data Science - Visualization</h2>
+        <p>Link: <a class="certification-link" href="https://courses.edx.org/certificates/038e4f3e09c6404abbdc742571765370">Harvard Certification</a></p>
+      </div>
+
+      <!-- Certification Card 3 -->
+      <div class="certification-card">
+        <h2>IBM: Data Science Tools</h2>
+        <p>Link: <a class="certification-link" href="https://courses.edx.org/certificates/ee6bd1199cfb4562acd937b1cf90fa8f">IBM Certification</a></p>
+      </div>
+
+      <!-- Certification Card 4 -->
+      <div class="certification-card">
+        <h2>Harvard University: Data Science - Probability</h2>
+        <p>Link: <a class="certification-link" href="https://courses.edx.org/certificates/77d63e6e7cb0480ea2f827e54f81e3d2">Harvard Certification</a></p>
+      </div>
+
+      <!-- Certification Card 5 -->
+      <div class="certification-card">
+        <h2>Harvard University: Using Python for Research</h2>
+        <p>Link: <a class="certification-link" href="https://courses.edx.org/certificates/91fc91b2464841b9b6354cdd9880088e">Harvard Certification</a></p>
+      </div>
+
+      <!-- Certification Card 6 -->
+      <div class="certification-card">
+        <h2>Harvard University: Data Science: Inference and Modeling</h2>
+        <p>Link: <a class="certification-link" href="https://courses.edx.org/certificates/6270564ffde040d4bd0d6d4782fd659a">Harvard Certification</a></p>
+      </div>
+
+      <!-- Certification Card 7 -->
+      <div class="certification-card">
+        <h2>Fundamentals of Accelerated
+          Computing with CUDA Python</h2>
+        <p>Link: <a class="certification-link" href="https://drive.google.com/file/d/1hFEcBwF1JVT8I-syZS_PVc0j_2ygKK58/view?usp=sharing">NVIDIA Certification</a></p>
+      </div>
+
+      <!-- Certification Card 8 -->
+      <div class="certification-card">
+        <h2>Harvard University: Data Science: Wrangling</h2>
+        <p>Link: <a class="certification-link" href="https://courses.edx.org/certificates/0d61b87cae004eca8a4a8858b8735e6e">Harvard Certification</a></p>
+      </div>
+
+      <!-- Certification Card 9 -->
+      <div class="certification-card">
+        <h2>University of Michigan: Programming for Everybody (Getting Started with Python)</h2>
+        <p>Link: <a class="certification-link" href="https://coursera.org/verify/CRWH9M3MKWVV">UMich Certification</a></p>
+      </div>
+
+            <!-- Certification Card 10 -->
+            <div class="certification-card">
+              <h2>All Certificates</h2>
+              <p>Link: <a class="certification-link" href="https://linktr.ee/moiz0820?utm_source=linktree_profile_share&ltsid=3eeaf09c-8f78-4bb7-ad08-6c7f80888313">All Certificates</a></p>
+            </div>
+    </div>
+  </div>
+</section>
+<!-- End Certifications Section -->
+  
+
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact container">
+      <div>
+        <h1 class="section-title">Contact <span>info</span></h1>
+      </div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
+          <div class="contact-info">
+            <h1>Phone</h1>
+            <h2>+91-9903154641</h2>
+            <h3>+971-508582359</h3>
+            
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
+          <div class="contact-info">
+            <h1>Email</h1>
+            <h2>moiz0507@gmail.com</h2>
+            
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
+          <div class="contact-info">
+            <h1>Address</h1>
+            <h2>Dubai, United Arab Emirates</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact Section -->
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span>M</span>oiz <span>A</span>nwar</h1>
+      </div>
+      <h2>Your Complete Data Solution</h2>
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="https://www.linkedin.com/in/moiz-anwar-5a01561b9/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/LinkedIn_icon_circle.svg/800px-LinkedIn_icon_circle.svg.png" /></a>
+         <!-- <a href="https://www.linkedin.com/in/moiz-anwar-5a01561b9/"></a>-->
+        </div>
+        <div class="social-item">
+          <a href="https://www.instagram.com/m.o.i.z.__/"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" /></a>
+         <!-- <a href="https://www.instagram.com/m.o.i.z.__/"></a> -->
+
+        </div>
+        <div class="social-item">
+          <a href="https://github.com/Moiz0820"><img src="https://w7.pngwing.com/pngs/914/758/png-transparent-github-social-media-computer-icons-logo-android-github-logo-computer-wallpaper-banner-thumbnail.png" /></a>
+         <!-- <a href="https://github.com/Moiz0820"></a>-->
+
+        </div>
+        <div class="social-item">
+          <a href="https://moiz0507@gmail.com"><img src="https://mailmeteor.com/logos/assets/PNG/Gmail_Logo_512px.png" /></a>
+         <!-- <a href="moiz0507@gmail.com"></a>]-->
+
+        </div>
+      </div>
+      <p>Copyright © 2020 Moiz. All rights reserved</p>
+    </div>
+  </section>
+  <!-- End Footer -->
+  <script src="./app.js"></script>
+</body>
+
+</html>
